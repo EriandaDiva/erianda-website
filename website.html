@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+#more {display: none;}
+</style>
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY WEBSITE</b></h1>
+  <p>Welcome to the website of <span class="w3-tag">Erianda</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://www.danzer.com/media/zoo/images/products-forestmanagement-header_1353d79eee982bb6797d3378b5827b7c.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>INTRODUCTION</b></h3>
+      <center><h5>Erianda Diva Wibowo</h5></center>
+    </div>
+
+    <div class="w3-container">
+      <p>My name is Erianda Diva Wibowo you can call me Erin for short. I am from eleven digital business class which is at the third floor of Vocational Highschool 8 Jakarta. I am currently 16 years old, i was born on June 19th 2008 at Tria Dipa Hospital. I live at Batu Merah street, RT.003/RW.002, East Pejaten, Ps.Minggu, South Jakarta. 
+        <span id="dots">...</span><span id="more">
+        <br>
+        <br>
+        My hobby is drawing and playing instruments, so far I can play the keyboard, ukulele and a little bit of guitar. I learned to play the ukulele and guitar by myself watching YouTube tutorials and chords, and learned keyboard since I joined Tradevis Band extracullicular, i was taught by Mr. Aria. I loved to draw since I was little, and I made some big progressions though I'm still learning to draw more realism rather than cartoon characters.
+        <a href="https://m.youtube.com/">ur mom</a>
+      <br><br>
+      I have an older sister, a little brother and 2 little sisters. My older sister just graduated from highschool and my little brother graduated elementary school, meanwhile my little sisters is in grade 6 and 4. We all live in harmony even though sometimes we fought over things, but we get along again eventually.
+      <br><br>
+     </p>
+    </span></p>
+        <button onclick="myFunction()" id="myBtn">Read More</button></span>
+        <br>
+      <div class="w3-row">
+
+       
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="https://i.pinimg.com/originals/7a/56/bd/7a56bd9f591925f81ace7a62758373ec.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>AUTOBIOGRAPHY</b></h3>
+      <h5>Simple facts about me, <span class="w3-opacity">August 6, 2024</span></h5>
+    </div>
+
+    <div class="w3-container">
+        <H4></H4>
+        <img src="https://i.ibb.co.com/CwdywG0/IMG-20240519-WA0014.jpg" alt="IMG-20240519-WA0014" border="0" style="width:30%">
+      <p> Name = Erianda Diva Wibowo<br>
+          Nickname = Erin <br>
+          Birthday = Jakarta, June 19 2008 <br>
+          Age = 16 <br>
+          <br>
+          <ul><b>Hobbies</b></ul>
+          <li>Listening to Music</li>
+          <li>Playing Instruments</li>
+          <li>Drawing</li>
+          <li>Painting</li>
+          
+          <ul><b>Favorites</b></ul>
+          <li>Favorite Food = Lasagna</li>
+          <li>Favorite Color = <span style ="color:rgb(254, 219, 64);"> Warm Yellow</span>, <span style ="color:rgb(43, 54, 87);">Space Blue</span></li>
+          <li>Favorite Animal = Cat</li>
+          <li>Favorite Artist = Nirvana</li>
+          <br>
+        
+    
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+        
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+    <a href="https://maps.app.goo.gl/Wc5Rdhhwe7LGLMXK8?g_st=ac"><img src="https://i.ibb.co.com/ZdMpYRR/Screenshot-20240806-224138-Maps.jpg" style="width:100%"></a>
+    <div class="w3-container w3-white">
+      <h3><b>MY ADDRESS</b></h3>
+     <a href="https://maps.app.goo.gl/Wc5Rdhhwe7LGLMXK8?g_st=ac">Jl. Batu Merah No.14, RT.3/RW.2, Pejaten Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12510</a>
+    <br>
+     <h4><b>SOCIALS</b></h4>
+     <a href="https://www.instagram.com/eriandadiva/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" style="width:5%"> Instragram</a>
+     <br>
+     <a href="https://api.whatsapp.com/send/?phone=62895322277864&text&type=phone_number&app_absent=0"><img src="https://tilikkana.com/wp-content/uploads/2022/11/logo-wa-png.png" style="width:5%"> Whatsapp</a>
+     <br>
+     <a href="mailto:eriandadivawibowo@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vtphMtxRWfK6nO2CIbGfSETyEs79Dr6oPw&s" style="width:5%"> Email</a>
+      <a href="https://www.instagram.com/eriandadiva/">Instagram</a>
+    </div>
+  </div><hr>
+
+  
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKt10vaUi2YruLpnsyvEcbEFIZzuTzrvwGfw&s" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">SMKN 8 JAKARTA</span><br>
+        <span>Lingkungan, Fasilitas, </span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+
+  
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+          </html>
